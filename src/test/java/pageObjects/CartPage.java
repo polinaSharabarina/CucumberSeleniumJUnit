@@ -28,9 +28,6 @@ public class CartPage {
 	private By promoBtn = By.cssSelector(".promoBtn");
 	private By placeOrderBtn = By.xpath("//button[normalize-space()='Place Order']");
 	
-	
-	
-	
 		
 	private String pageUrl = "https://rahulshettyacademy.com/seleniumPractise/#/cart";
 
@@ -48,7 +45,6 @@ public class CartPage {
 
 	public String getProductQuantity() throws InterruptedException {
 		
-//		Thread.sleep(2000);
 		return driver.findElement(firstProductQuantity).getText();
 	}
 	
