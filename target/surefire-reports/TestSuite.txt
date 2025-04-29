@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.911 s <<< FAILURE! - in TestSuite
+cucumberOptions.TestNGTestRunner.runScenario["Search experience for product is same on Home and Offers page", "Search and Place Order for Products"](2)  Time elapsed: 13.048 s  <<< FAILURE!
+java.lang.AssertionError: expected [No data] but found [Beetroot]
+
